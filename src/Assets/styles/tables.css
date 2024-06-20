@@ -1,0 +1,46 @@
+.tables {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    border-collapse: separate;
+    border-spacing: 0;
+    text-align: center;
+ /* Adjust the margin value as needed */
+}
+
+/* Rest of the code remains the same */
+.tables th {
+    background-color: #2c5e77;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.tables td {
+    padding: 10px;
+    border: none;
+}
+
+.tables tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tables tr:nth-child(odd) {
+    background-color: #e4f0f5;
+}
+
+.edit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
